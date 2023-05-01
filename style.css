@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.Main1{
+	width:100%;
+	height:100vh;
+	background:url(images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;
+	
+}
+
+.Main1-1{
+	width:100%;
+	height:100px;
+	background:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+	padding-top:59px;
+}
+
+.Navbar{
+	width:1246px;
+	height:80px;
+	margin:auto;
+	display:flex;
+	align-items:center;
+}
+
+.logo{
+	width:290px;
+	height:auto;
+	float:left;
+}
+
+
+.lists{
+	width:956px;
+	height:auto;
+	float:left;
+}
+
+.lists ul{
+	float:left;
+	list-style-type:none;
+	margin-left:155px;
+}
+
+.lists ul li{
+	font-family:'Poppins', sans-serif;
+	font-size:25px;
+	color:#fff;
+	text-transform:uppercase;
+	float:left;
+	display:inline;
+	margin-right:74px;
+	
+	
+}
+
+.lists ul li a:link, .lists ul li a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+
+.lists ul li a:hover, .lists ul li a.active {
+	color:#f64b3c;
+	transition:0.5s;
+}
+
+.Main-content{
+	width:1250px;
+	height:auto;
+	margin:50px auto 0 auto;
+}
+
+.Main-content h1{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:80px;
+	line-height:80px;
+}
+
+.Main-content p{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:28px;
+	margin-top:18px;
+}
+
+.button{
+	background-color:#f64b3c;
+	border:none;
+	border-radius:50px;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:20px 75px;
+	margin-top:30px;
+	transition:0.5s;
+}
+
+.button:hover{
+	color:#f64b3c;
+	background-color:#fff;
+}
+
+.Main2{
+	width:100%;
+	height:100vh;
+	background:url(images/design.png), #f6eedf;
+	padding-top:90px;	
+	background-size:100%;
+}
+
+.Main2 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:63px;
+	text-align:center;
+}
+
+.Main2 p{
+	font-family: 'Montserrat', sans-serif;
+	color:#f64b3c;
+	font-size:25px;
+	line-height:30px;
+	text-align:center;
+	margin:0 300px;
+	font-weight:regular;
+}
+
+.Main2-1{
+	width:1090px;
+	height:340px;
+	margin:70px auto 0 auto;
+	text-align:center;
+}
+
+.Main2-1 img{
+	border-radius:50%;
+}
+
+.Main2-1 h4{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:33px;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+
+.Main2-1 h6{
+	font-family: 'Nunito', sans-serif;
+	color:#f64b3c;
+	font-size:25px;
+	margin-top:10px;
+}
+
+
+.Main2-1-1{
+	width:363px;
+	height:auto;
+	float:left;
+}
+
+.Main2-1-1 h4{
+	margin-top:25px;
+}
+
+.Main2-1-2{
+	width:363px;
+	height:auto;
+	float:left;
+}
+
+.Main2-1-3{
+	width:363px;
+	height:auto;
+	float:left;
+}
+
+
+.Main3{
+	width:100%;
+	height:100vh;
+	background-color:#f64b3c;
+	padding-top:150px;
+}
+
+.Main3-1{
+	width:1160px;
+	height:477px;
+	margin:auto;
+}
+
+.Main3-1-1{
+	width:479px;
+	height:477px;
+	float:left;
+}	
+
+.Main3-1-1 img{
+	border-radius:50%;
+}
+
+.Main3-1-2{
+	width:548px;
+	height:477px;
+	float:left;
+	margin-left:130px;
+}
+
+.Main3-1-2 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:75px;
+	margin-top:75px;
+}
+
+.Main3-1-2 p{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:29px;
+	line-height:30px;
+	margin-top:40px;
+}
+
+.button1{
+	background-color:#fff;
+	border:none;
+	border-radius:50px;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	color:#f64b3c;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:20px 75px;
+	margin-top:70px;
+	transition:0.5s;
+}
+
+.button1:hover{
+	color:#f64b3c;
+	background-color:#fff;
+}
+
+.Main4{
+	width:100%;
+	height:100vh;
+	background:url(images/design.png), #f6eedf;
+	padding-top:90px;	
+	background-size:100%;
+}	
+
+.Main4-1{
+	width:1160px;
+	height:477px;
+	margin:auto;
+}
+
+.Main4-1-1{
+	width:548px;
+	height:477px;
+	float:left;
+}
+
+.Main4-1-1 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:75px;
+	margin-top:75px;
+}
+
+.Main4-1-1 p{
+	font-family: 'Nunito', sans-serif;
+	color:#f64b3c;
+	font-size:29px;
+	line-height:30px;
+	margin-top:40px;
+	font-weight:regular;
+}
+
+.button2{
+	background-color:#f64b3c;
+	border:none;
+	border-radius:50px;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:20px 75px;
+	margin-top:70px;
+	transition:0.5s;
+}
+
+.button2:hover{
+	color:#f64b3c;
+	background-color:#fff;
+}
+
+.Main4-1-2{
+	width:479px;
+	height:477px;
+	float:left;
+	margin-left:130px;
+}	
+
+.Main4-1-2 img{
+	border-radius:50%;
+}
+
+
+.Main5{
+	width:100%;
+	height:100vh;
+	background-color:#f64b3c;
+	padding-top:100px;
+}
+.Main5 h2{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:63px;
+	text-align:center;
+}
+
+.Main5 p{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:25px;
+	line-height:30px;
+	text-align:center;
+	margin:0 300px;
+	font-weight:regular;
+}
+
+
+.Main5-1{
+	width:1136px;
+	height:310px;
+	margin:62px auto 0 auto;
+}
+
+.circle {
+  	height: 310px;
+  	width: 310px;
+  	background-color:#f64b3c;
+  	border-radius: 50%;
+	border:4px solid #fff;
+  	display: inline-block;
+	float:left;
+}
+
+.Main5-1 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:101px;
+	text-align:center;
+	margin-top:80px;
+}
+
+.Main5-1 h6{
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:33px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:regular;
+}
+
+.Main5-1-1{
+	width:310px;
+	height:auto;
+	float:left;
+}
+
+.Main5-1-2{
+	width:310px;
+	height:auto;
+	float:left;
+	margin:0 103px;
+}
+
+.Main5-1-3{
+	width:310px;
+	height:auto;
+	float:left;
+}
+
+.Main6{
+	width:100%;
+	height:100vh;
+	background:url(images/design.png), #f6eedf;
+	padding-top:90px;	
+	background-size:100%;
+}	
+
+.Main6 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:63px;
+	text-align:center;
+}
+
+.Main6-1{
+	width:1185px;
+	height:445px;
+	margin:auto;
+	margin-top:100px;
+}
+
+.Main6-1 h6{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:33.35px;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.Main6-1 img{
+	margin:40px 0px;
+}
+
+.Main6-1 p{
+	font-family: 'Montserrat', sans-serif;
+	color:#f64b3c;
+	font-size:20.01px;
+	text-align:center;
+	margin:25px 0px;
+}
+	
+.Main6-1-1{
+	width:336px;
+	height:auto;
+	border-radius:10px;
+	background-color:#fff;
+	padding:20px 0px;
+	text-align:center;
+	float:left;
+}
+
+.Main6-1-2{
+	width:336px;
+	height:auto;
+	border-radius:10px;
+	background-color:#fff;
+	padding:20px 0px;
+	text-align:center;
+	float:left;
+	margin:0 88px;
+}
+
+.Main6-1-3{
+	width:336px;
+	height:auto;
+	border-radius:10px;
+	background-color:#fff;
+	padding:20px 0px;
+	text-align:center;
+	float:left;
+}
+
+.button3{
+	background-color:#f64b3c;
+	border:none;
+	border-radius:50px;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:22.57px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:20px 66px;
+	transition:0.5s;
+}
+
+.button3:hover{
+	color:#f64b3c;
+	background-color:#fff;
+	border:2px solid #f64b3c;
+}
+
+.Main7{
+	width:100%;
+	height:100vh;
+	background:url(images/main7-bg.jpg);
+	background-size:100%;
+}
+
+.Main7-1{
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(246,75,60,0.8),rgba(246,75,60,0.8));
+	background-size:100%;
+	padding-top:200px;
+}
+
+.Main7-1-1{
+	width:725px;
+	height:260px;
+	margin:auto;
+}
+
+.Main7-1-1 p{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:36.47px;
+	text-align:center;
+}
+
+.Main7-1-1 h1{
+	font-family: 'Calistoga', cursive;
+	color:#fff;
+	font-size:44.9px;
+	text-align:center;
+	margin-top:80px;
+}
+
+.Main8{
+	width:100%;
+	height:100vh;
+	background:url(images/design.png), #f6eedf;
+	padding-top:200px;	
+	background-size:100%;
+}
+
+.Main8-1{
+	width:825px;
+	height:325px;
+	margin:auto;
+}
+
+.Main8-1 h1{
+	font-family: 'Archivo', sans-serif;
+	color:#f64b3c;
+	font-size:75px;
+	text-align:center;
+}
+
+.Main8-1 p{
+	font-family: 'Nunito', sans-serif;
+	color:#f64b3c;
+	font-size:29.72px;
+	text-align:center;
+	margin:50px auto 70px auto;
+}
+
+.Main8-1 input[type=text]{
+	width:549px;
+	height:63px;
+	border:none;
+	border-radius:50px 0 0 50px;
+	float:left;
+	display:inline;
+	margin-left:30px;
+}
+
+.button4{
+	background-color:#f64b3c;
+	border:none;
+	border-radius:0 50px 50px 0;
+	cursor:pointer;
+	font-family: 'Montserrat', sans-serif;
+	color:#fff;
+	font-size:22.57px;
+	font-weight:regular;
+	text-transform:uppercase;
+	padding:20px 40px;
+	transition:0.5s;
+	float:left;
+	display:inline;
+}
+
+.Main9{
+	width:100%;
+	height:100vh;
+	background-color:#000;
+	padding-top:220px;
+}
+
+.Main9-1{
+	width:1260px;
+	height:253px;
+	/*margin:220px auto;*/
+	margin:auto;
+}
+
+.Main9-1 h6{
+	font-family: 'Archivo', sans-serif;
+	color:#fff;
+	font-size:31.47px;
+}
+
+.Main9-1 p{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:23.6px;
+	margin:30px 0;
+}
+
+.Main9-1-1{
+	width:626px;
+	height:auto;
+	float:left;
+}
+
+/*.circle1 {
+  	height: 42px;
+  	width: 42px;
+  	background-color:#fff;
+  	border-radius: 50%;
+	border:none;
+  	display: inline-block;
+	float:left;
+}*/
+
+.Main9-1-1 ul{
+	list-style-type:none;
+	diplay:inline;
+	float:left;
+}
+
+.Main9-1-1 ul li{
+	margin-right:15px;
+	diplay:inline;
+	float:left;
+}
+
+.Main9-1-1 ul li a:link, .Main9-1-1 ul li a:visited{
+	text-decoration:none;
+}
+
+
+.Main9-1-2{
+	width:207px;
+	height:auto;
+	float:left;
+	
+}
+
+.Main9-1-2 ul{
+	margin-top:30px;
+	list-style-type:none;
+}
+
+.Main9-1-2 ul li a:link, .Main9-1-2 ul li a:visited{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:23.6px;
+	font-weight:regular;
+	text-decoration:none;
+}
+
+.Main9-1-2 ul li a:hover{
+	text-decoration:underline;
+}
+
+
+
+.Main9-1-3{
+	width:186px;
+	height:auto;
+	float:left;
+	margin:0 60px 0 50px;
+}
+
+.Main9-1-3 ul{
+	margin-top:30px;
+	list-style-type:none;
+}
+
+.Main9-1-3 ul li a:link, .Main9-1-3 ul li a:visited{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:23.6px;
+	font-weight:regular;
+	text-decoration:none;
+}
+
+.Main9-1-3 ul li a:hover{
+	text-decoration:underline;
+}
+
+
+
+.Main9-1-4{
+	width:131px;
+	height:auto;
+	float:left;
+}
+
+.Main9-1-4 ul{
+	margin-top:30px;
+	list-style-type:none;
+}
+
+.Main9-1-4 ul li a:link, .Main9-1-4 ul li a:visited{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size:23.6px;
+	font-weight:regular;
+	text-decoration:none;
+}
+
+.Main9-1-4 ul li a:hover{
+	text-decoration:underline;
+}
